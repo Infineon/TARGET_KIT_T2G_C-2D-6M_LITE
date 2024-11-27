@@ -29,8 +29,8 @@ To use code from the BSP, simply include a reference to `cybsp.h`.
 
 ### Kit Contents:
 
-* T2G-C-2Dd evaluation board
-* USB Type-A to Micro-B cable
+* T2G-C-2D evaluation board
+* USB Type-A to Micro-C cable
 * Quick start guide (printed on the kit package)
 * See 
 [Peripheral driver library (PDL) library](https://infineon.github.io/mtb-pdl-cat1/pdl_api_reference_manual/html/index.html)
@@ -51,22 +51,22 @@ Defines:
 
 | Clock    | Source    | Output Frequency |
 |----------|-----------|------------------|
-| FLL      | IMO       | 100.0 MHz        |
-| PLL      | IMO       | 100.0 MHz        |
-| CLK_HF0  | CLK_PATH0 | 100 MHz          |
-| CLK_HF1  | CLK_PATH1 | 300 MHz          |
-| CLK_HF2  | CLK_PATH0 | 50 MHz           |
-| CLK_HF3  | CLK_PATH0 | 50 MHz           |
-| CLK_HF4  | CLK_PATH0 | 25 MHz           |
-| CLK_HF5  | CLK_PATH0 | 100 MHz          |
-| CLK_HF6  | CLK_PATH0 | 100 MHz          |
-| CLK_HF7  | CLK_PATH0 | 100 MHz          |
-| CLK_HF8  | CLK_PATH2 | 100 MHz          |
-| CLK_HF9  | CLK_PATH2 | 100 MHz          |
-| CLK_HF10 | CLK_PATH0 | 100 MHz          |
-| CLK_HF11 | CLK_PATH0 | 100 MHz          |
-| CLK_HF12 | CLK_PATH0 | 100 MHz          |
-| CLK_HF13 | CLK_PATH0 | 100 MHz          |
+| FLL      | ECO       | 100.0 MHz        |
+| PLL      | ECO       | 200.0 MHz        |
+| CLK_HF0  | CLK_PATH6 | 200 MHz          |
+| CLK_HF1  | CLK_PATH1 | 320 MHz          |
+| CLK_HF2  | CLK_PATH7 | 100 MHz          |
+| CLK_HF3  | CLK_PATH6 | 100 MHz          |
+| CLK_HF4  | CLK_PATH6 | 50 MHz           |
+| CLK_HF5  | CLK_PATH2 | 196 MHz          |
+| CLK_HF6  | CLK_PATH2 | 196 MHz          |
+| CLK_HF7  | CLK_PATH2 | 196 MHz          |
+| CLK_HF8  | CLK_PATH3 | 320 MHz          |
+| CLK_HF9  | CLK_PATH3 | 320 MHz          |
+| CLK_HF10 | CLK_PATH4 | 250 MHz          |
+| CLK_HF11 | CLK_PATH5 | 220 MHz          |
+| CLK_HF12 | CLK_PATH8 | 200 MHz          |
+| CLK_HF13 | CLK_PATH9 | 0 MHz            |
 
 ### Power Configuration
 
@@ -84,7 +84,7 @@ See the [BSP API Reference Manual][api] for the complete list of the provided in
 
 ## More information
 * [KIT_T2G_C-2D-6M_LITE BSP API Reference Manual][api]
-* [KIT_T2G_C-2D-6M_LITE Documentation](https://www.infineon.com/KIT_T2G_C-2D-6M_LITE)
+* [KIT_T2G_C-2D-6M_LITE Documentation](https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g_c-2d-6m_lite)
 * [Cypress Semiconductor, an Infineon Technologies Company](http://www.cypress.com)
 * [Infineon GitHub](https://github.com/infineon)
 * [ModusToolbox™](https://www.cypress.com/products/modustoolbox-software-environment)

@@ -61,7 +61,7 @@ Minimum required ModusToolbox™ Software Environment: v3.0.0
 
 ### More information
 * [KIT_T2G_C-2D-6M_LITE BSP API Reference Manual][api]
-* [KIT_T2G_C-2D-6M_LITE Documentation](https://www.infineon.com/KIT_T2G_C-2D-6M_LITE)
+* [KIT_T2G_C-2D-6M_LITE Documentation](https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g_c-2d-6m_lite)
 * [Cypress Semiconductor, an Infineon Technologies Company](http://www.cypress.com)
 * [Infineon GitHub](https://github.com/infineon)
 * [ModusToolbox™](https://www.cypress.com/products/modustoolbox-software-environment)
