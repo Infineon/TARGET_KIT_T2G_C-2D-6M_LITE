@@ -29,8 +29,8 @@ To use code from the BSP, simply include a reference to `cybsp.h`.
 
 ### Kit Contents:
 
-* T2G-C-2D evaluation board
-* USB Type-A to Micro-C cable
+* T2G-C-2Dd evaluation board
+* USB Type-A to Micro-B cable
 * Quick start guide (printed on the kit package)
 * See 
 [Peripheral driver library (PDL) library](https://infineon.github.io/mtb-pdl-cat1/pdl_api_reference_manual/html/index.html)

@@ -17,6 +17,8 @@ The KIT_T2G_C-2D-6M_LITE library includes the following:
 * API documentation
 
 ### What Changed?
+#### v3.0.0
+* Updated the MTB-HAL version's BSP for KIT_T2G_C-2D-6M_LITE
 #### v2.2.0
 * Added the BSP for KIT_T2G_C-2D-6M_LITE
 #### v2.1.0

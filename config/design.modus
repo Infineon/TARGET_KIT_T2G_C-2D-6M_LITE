@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration app="BACKEND" formatVersion="14" lastSavedWith="Configurator Backend" lastSavedWithVersion="3.20.0" xmlns="http://cypress.com/xsd/cydesignfile_v5">
+<Configuration app="BACKEND" formatVersion="14" lastSavedWith="Configurator Backend" lastSavedWithVersion="3.30.0" toolsPackage="ModusToolbox 3.3.0" xmlns="http://cypress.com/xsd/cydesignfile_v5">
     <Devices>
         <Device mpn="CYT4DNJBZS">
             <BlockConfig>
@@ -11,17 +11,6 @@
                 <Block location="ioss[0].port[0].pin[1]">
                     <Aliases>
                         <Alias value="CYBSP_D0"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[0].pin[2]">
-                    <Aliases>
-                        <Alias value="CYBSP_USER_BTN1"/>
-                        <Alias value="CYBSP_USER_BTN"/>
-                    </Aliases>
-                </Block>
-                <Block location="ioss[0].port[0].pin[3]">
-                    <Aliases>
-                        <Alias value="CYBSP_USER_BTN2"/>
                     </Aliases>
                 </Block>
                 <Block location="ioss[0].port[0].pin[4]">
@@ -495,6 +484,45 @@
                     </Parameters>
                 </Personality>
                 <Personality template="pin" version="3.0">
+                    <Block location="ioss[0].port[0].pin[2]" locked="true">
+                        <Aliases>
+                            <Alias value="CYBSP_USER_BTN1"/>
+                            <Alias value="CYBSP_USER_BTN"/>
+                        </Aliases>
+                    </Block>
+                    <Parameters>
+                        <Param id="DriveModes" value="CY_GPIO_DM_HIGHZ"/>
+                        <Param id="driveStrength" value="CY_GPIO_DRIVE_1_2"/>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="initialState" value="1"/>
+                        <Param id="isrTrigger" value="CY_GPIO_INTR_DISABLE"/>
+                        <Param id="nonSec" value="1"/>
+                        <Param id="pullUpRes" value="CY_GPIO_PULLUP_RES_DISABLE"/>
+                        <Param id="sioOutputBuffer" value="true"/>
+                        <Param id="slewRate" value="CY_GPIO_SLEW_FAST"/>
+                        <Param id="vtrip" value="CY_GPIO_VTRIP_CMOS"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="pin" version="3.0">
+                    <Block location="ioss[0].port[0].pin[3]" locked="true">
+                        <Aliases>
+                            <Alias value="CYBSP_USER_BTN2"/>
+                        </Aliases>
+                    </Block>
+                    <Parameters>
+                        <Param id="DriveModes" value="CY_GPIO_DM_HIGHZ"/>
+                        <Param id="driveStrength" value="CY_GPIO_DRIVE_1_2"/>
+                        <Param id="inFlash" value="true"/>
+                        <Param id="initialState" value="1"/>
+                        <Param id="isrTrigger" value="CY_GPIO_INTR_DISABLE"/>
+                        <Param id="nonSec" value="1"/>
+                        <Param id="pullUpRes" value="CY_GPIO_PULLUP_RES_DISABLE"/>
+                        <Param id="sioOutputBuffer" value="true"/>
+                        <Param id="slewRate" value="CY_GPIO_SLEW_FAST"/>
+                        <Param id="vtrip" value="CY_GPIO_VTRIP_CMOS"/>
+                    </Parameters>
+                </Personality>
+                <Personality template="pin" version="3.0">
                     <Block location="ioss[0].port[1].pin[0]" locked="true">
                         <Aliases>
                             <Alias value="CYBSP_ECO_IN"/>
@@ -708,26 +736,10 @@
                         <Param id="startOnReset" value="true"/>
                     </Parameters>
                 </Personality>
-                <Personality template="pclk_v2" version="1.0">
-                    <Block location="peri[0].group[1].div_16[0]" locked="true"/>
-                    <Parameters>
-                        <Param id="fracDivider" value="0"/>
-                        <Param id="intDivider" value="54"/>
-                        <Param id="startOnReset" value="true"/>
-                    </Parameters>
-                </Personality>
-                <Personality template="pclk_v2" version="1.0">
-                    <Block location="peri[0].group[1].div_24_5[0]" locked="true"/>
-                    <Parameters>
-                        <Param id="fracDivider" value="8"/>
-                        <Param id="intDivider" value="54"/>
-                        <Param id="startOnReset" value="true"/>
-                    </Parameters>
-                </Personality>
                 <Personality template="uart" version="3.0">
                     <Block location="scb[7]" locked="true">
                         <Aliases>
-                            <Alias value="UART"/>
+                            <Alias value="CYBSP_DEBUG_UART"/>
                         </Aliases>
                     </Block>
                     <Parameters>
@@ -797,7 +809,7 @@
                 <Personality template="eco" version="3.0">
                     <Block location="srss[0].clock[0].eco[0]" locked="true"/>
                     <Parameters>
-                        <Param id="accuracyPpm" value="50"/>
+                        <Param id="accuracyPpm" value="30"/>
                         <Param id="c0" value="0"/>
                         <Param id="cLoad" value="18"/>
                         <Param id="driveLevel" value="100"/>
