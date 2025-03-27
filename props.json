@@ -1,6 +1,6 @@
 {
     "core": {
-        "version": "3.0.0.44941"
+        "version": "3.0.1.45568"
     },
     "opt": {
         "props": {
@@ -14,6 +14,7 @@
                 "dma",
                 "ethernet",
                 "flash_6336k",
+                "hal",
                 "i2c",
                 "i2s",
                 "kit_t2g_c_2d_6m_lite",
@@ -23,8 +24,10 @@
                 "lptimer",
                 "mcu_gp",
                 "memory",
+                "memory_qspi",
                 "multi_core",
                 "nor_flash",
+                "qspi",
                 "rtc",
                 "smart_io",
                 "spi",

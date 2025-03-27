@@ -6,6 +6,10 @@ The KIT_T2G_C-2D-6M_LITE, a 327-pin evaluation board is based on the TRAVEO™ T
 
 **Note:**
 KIT_T2G_C-2D-6M_LITE is the board support package for the T2G-C-2D 6M Lite Evaluation board  with CYT4DNJBZS MCU. 
+**Note:**
+Some additional setups will allow you to use more code examples than those shown on the next page. Click 
+[here ](https://github.com/Infineon/TRAVEO_T2G_code_examples#how-to-setup)
+for setup instructions.
 
 ![](docs/html/board.png)
 

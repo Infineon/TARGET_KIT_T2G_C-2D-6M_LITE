@@ -3,6 +3,10 @@ The KIT_T2G_C-2D-6M_LITE, a 327-pin evaluation board is based on the TRAVEO™ T
 
 **Note:**
 KIT_T2G_C-2D-6M_LITE is the board support package for the T2G-C-2D 6M Lite Evaluation board  with CYT4DNJBZS MCU. 
+**Note:**
+Some additional setups will allow you to use more code examples than those shown on the next page. Click 
+[here ](https://github.com/Infineon/TRAVEO_T2G_code_examples#how-to-setup)
+for setup instructions.
 
 NOTE: BSPs are versioned by family. This means that version 1.2.0 of any BSP in a family (eg: XMC™ ) will have the same software maturity level. However, not all updates are necessarily applicable for each BSP in the family so not all version numbers will exist for each board. Additionally, new BSPs may not start at version 1.0.0. In the event of adding a common feature across all BSPs, the libraries are assigned the same version number. For example if BSP_A is at v1.3.0 and BSP_B is at v1.2.0, the event will trigger a version update to v1.4.0 for both BSP_A and BSP_B. This allows the common feature to be tracked in a consistent way.
 
@@ -17,6 +21,8 @@ The KIT_T2G_C-2D-6M_LITE library includes the following:
 * API documentation
 
 ### What Changed?
+#### v3.0.1
+* Add additional capabilities and summary for KIT_T2G_C-2D-6M_LITE
 #### v3.0.0
 * Updated the MTB-HAL version's BSP for KIT_T2G_C-2D-6M_LITE
 #### v2.2.0
