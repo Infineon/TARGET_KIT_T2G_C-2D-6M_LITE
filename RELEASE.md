@@ -21,6 +21,9 @@ The KIT_T2G_C-2D-6M_LITE library includes the following:
 * API documentation
 
 ### What Changed?
+#### v3.1.0
+* Add additional capabilities and disable dcache for KIT_T2G_C-2D-6M_LITE
+* Update BSP template to v1.7.2
 #### v3.0.1
 * Add additional capabilities and summary for KIT_T2G_C-2D-6M_LITE
 #### v3.0.0
