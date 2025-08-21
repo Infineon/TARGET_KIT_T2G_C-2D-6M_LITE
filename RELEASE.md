@@ -21,13 +21,25 @@ The KIT_T2G_C-2D-6M_LITE library includes the following:
 * API documentation
 
 ### What Changed?
+#### v3.1.1
+* Fix documentation URLs for some Traveo Kits
+* Update BSP template to v1.7.4
 #### v3.1.0
 * Add additional capabilities and disable dcache for KIT_T2G_C-2D-6M_LITE
 * Update BSP template to v1.7.2
 #### v3.0.1
 * Add additional capabilities and summary for KIT_T2G_C-2D-6M_LITE
+* Updated the startup code to align with mtb-pdl-cat1 v3.17.0 for KIT_XMC72_EVK
 #### v3.0.0
 * Updated the MTB-HAL version's BSP for KIT_T2G_C-2D-6M_LITE
+* Updated KIT_XMC72_EVK to no longer enable HAL by default
+#### v2.3.2
+* Updated the startup code to align with mtb-pdl-cat1 v3.17.0 for XMC7000 BSPs
+#### v2.3.1
+* Updated the capabilities in props.json for XMC7000 BSPs
+#### v2.3.0
+* Updated linker scripts and startup code to align with mtb-pdl-cat1 v3.14.0
+* Added bt-fw-mur-cyw43439 as a dependency for KIT_XMC72_EVK_MUR_43439M2
 #### v2.2.0
 * Added the BSP for KIT_T2G_C-2D-6M_LITE
 #### v2.1.0
@@ -63,16 +75,16 @@ This version of the KIT_T2G_C-2D-6M_LITE BSP was validated for compatibility wit
 
 | Software and Tools                        | Version |
 | :---                                      | :----:  |
-| ModusToolbox™ Software Environment        | 3.1.0   |
-| GCC Compiler                              | 12.2.1  |
-| IAR Compiler                              | 9.40.2  |
-| ARM Compiler                              | 6.16    |
+| ModusToolbox™ Software Environment        | 3.5.0   |
+| GCC Compiler                              | 11.3.1  |
+| IAR Compiler                              | 9.50.2  |
+| ARM Compiler                              | 6.22    |
 
 Minimum required ModusToolbox™ Software Environment: v3.0.0
 
 ### More information
 * [KIT_T2G_C-2D-6M_LITE BSP API Reference Manual][api]
-* [KIT_T2G_C-2D-6M_LITE Documentation](https://www.infineon.com/cms/en/product/evaluation-boards/kit_t2g_c-2d-6m_lite)
+* [KIT_T2G_C-2D-6M_LITE Documentation](https://www.infineon.com/evaluation-board/KIT-T2G-C-2D-6M-LITE)
 * [Cypress Semiconductor, an Infineon Technologies Company](http://www.cypress.com)
 * [Infineon GitHub](https://github.com/infineon)
 * [ModusToolbox™](https://www.cypress.com/products/modustoolbox-software-environment)
@@ -80,4 +92,4 @@ Minimum required ModusToolbox™ Software Environment: v3.0.0
 [api]: https://infineon.github.io/TARGET_KIT_T2G_C-2D-6M_LITE/html/modules.html
 
 ---
-© Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation, 2019-2024.
+© Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation, 2019-2025.
